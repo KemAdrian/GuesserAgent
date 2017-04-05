@@ -96,6 +96,24 @@ After the header, each line is built on the following model:
 
 ## Running the tests
 
+### With hints from a real time Human describer
+
+In order to play directly against the guesser agent, go in the Tester package and run the class against_human. You should see a message like this in the terminal (probably with another city than Osaka):
+
+```
+You have to make the computer guess Osaka
+You cannot use the words (or derivated) :  |  culture |  mountains |  bustling |  udon |  ramen |  baseball |  vibrant | tofu
+```
+You can write a hint in the terminal. The guesser will try to guess the city:
+
+```
+the computer thinks that you mean Hawaii
+You have to make the computer guess Osaka
+```
+
+and the game will repeat until the guesser finds the right city.
+
+### With hints from the recorded games in Taboo_cleaned_onlyPerfects.csv
 
 ## Built With
 
