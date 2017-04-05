@@ -1,12 +1,17 @@
 # Guesser Agent for the ESSENCE Taboo Challenge
 
-Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints. The Location Taboo (LT) Challenge is a version of Taboo that is intended to be played by artificial guesser agents. This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#Publication) . This readme will guide you in the installation of the agent.
+Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints that are neither the target term nor other terms specified in a predetermined list of taboo words. For example, a player might have to describe water without using sea, blue or beverage.
+
+The Location Taboo Challenge (LTC), which has been proposed by the [ESSENCE Marie Curie Initial Training Network](https://www.essence-network.com/), is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. In the LTC, the hints, which are words associated to the target city, are sequentially provided to the guesser agent, and the goal is to guess the target location as soon as possible. A complete specification of the challenge can be found [here](https://www.essence-network.com/challenge/).
+
+This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#Publication). This readme will guide you in the installation of the agent.
 
 ## Presentation of the Taboo Game
 
-Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints that are neither the target term nor other terms specified in a predetermined list of taboo words. For example, a player might have to describe water without using sea, blue or beverage.
-
-The Location Taboo Challenge (LTC), which has been proposed by the [ESSENCE Marie Curie Initial Training Network](https://www.essence-network.com/), is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. In the LTC, the hints, which are words associated to the target city, are sequentially provided to the guesser agent, and the goal is to guess the target location as soon as possible.
+An LTC game is played by two agents, the describer and the guesser. The game starts with the describer, providing a hint about a particular city anywhere in the world. Based on this hint, the guesser tries to guess the city that is being described. There are two possi- ble outcomes after a guess has been made. For the outcome where the guess is correct, the game is considered to be successful. How- ever, for the outcome where the guess is incorrect, the describer pro- vides another hint and the game continues until the describer has consumed all the hints. The LT Challenge consists of implementing a guesser agent that can guess the correct city using the fewest num- ber of guesses possible and before the describer runs out of hints. In the case where the describer runs out of hints and the correct guess has not yet been made, the game is considered to have failed.
+For the LTC, the describer agent is provided by the authors of the challenge and the hints are crowd-sourced from real games played by human players. Therefore, the length of a game - i.e. the num- ber of hints - is not fixed, but determined by the individual players. Also, it should be noted that the real-world dataset, which is pro- vided by ESSENCE Network, consists of only successfully finished games. After each guess, the describer provides not only a new hint, but also the city that the human player (wrongfully) guessed. This information may be useful, or even necessary, in order to interpret
+ 
+the next hints, as these might be relative to the guesser’s previous guesses (e.g. ’north’ or ’close’). Hints are usually single words, but can occasionally be multi-word expressions. According to the rules of the LTC, the hints do not include proper names.
 
 ## Prerequisites
 
