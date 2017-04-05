@@ -35,13 +35,13 @@ Copy your local repository folder in your current workspace. If this is the firs
 
 In the window that pops up, select Java Project and clic next.
 
-In the Project name field, enter 'ArgumentationOnMeaning' (or the name of the local folder of this repository if you changed it).
+In the Project name field, enter 'GuesserAgent' (or the name of the local folder of this repository if you changed it).
 
 Clic on Finish. The Package Explorer of Eclipse (left side by default) should look like this:
 
 ### Place the complementary files in the Eclipse project
 
-Two files need to be added to the project in order to run the guesser agent. They are not provided in the repository.
+Two files need to be added to the project in order to run the guesser agent. They are not provided in the repository and should be added to the root of the GuesserAgent folder (or the name of the local folder of this repository if you changed it).
 
 ```
 cities.tsv
