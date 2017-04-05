@@ -2,6 +2,12 @@
 
 Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints that are neither the target term nor other terms specified in a predetermined list of taboo words. The Location Taboo (LT) Challenge, which has been proposed by the ESSENCE Marie Curie Initial Training Net- work, is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#publication). This readme will guide you in the installation of the agent.
 
+## Presentation of the Taboo Game
+
+Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints that are neither the target term nor other terms specified in a predetermined list of taboo words. For example, a player might have to describe water without using sea, blue or beverage.
+
+The Location Taboo Challenge (LTC), which has been proposed by the [ESSENCE Marie Curie Initial Training Network](https://www.essence-network.com/), is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. In the LTC, the hints, which are words associated to the target city, are sequentially provided to the guesser agent, and the goal is to guess the target location as soon as possible.
+
 ## Prerequisites
 
 This project has been developed using [Eclipse](https://eclipse.org/). The repository is a standard eclipse project folder. Since the code is written in [Java](https://www.java.com/fr/), any other IDE and it can be executed from a terminal in any operating system that has Java installed. However, the code has only been tested in the Eclipse environment so we recommend you to use it.
