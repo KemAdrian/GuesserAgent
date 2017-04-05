@@ -53,7 +53,7 @@ cities.tsv
 Taboo_cleaned_onlyPerfects.csv
 ```
 
-If you want to modify these names, see the Javadoc of the classes from the Tester package.
+If you want to modify these names, see the [Javadoc](https://keminus.github.io/GuesserAgent/) of the classes from the Tester package.
 
 cities.tsv is a spreadsheet file with columns separated by tabulations. This file contains informations about the cities that the guesser knows about. Each line correspond to a different city. The file has six columns, respectively:
 
