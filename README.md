@@ -1,6 +1,6 @@
 # Guesser Agent for the ESSENCE Taboo Challenge
 
-Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints that are neither the target term nor other terms specified in a predetermined list of taboo words. The Location Taboo (LT) Challenge, which has been proposed by the ESSENCE Marie Curie Initial Training Net- work, is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#Publication). This readme will guide you in the installation of the agent.
+Taboo is a word-guessing game in which one player has to describe a target term to another player by giving hints that are neither the target term nor other terms specified in a predetermined list of taboo words. The Location Taboo (LT) Challenge, which has been proposed by the ESSENCE Marie Curie Initial Training Net- work, is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#publication). This readme will guide you in the installation of the agent.
 
 ## Prerequisites
 
