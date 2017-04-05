@@ -140,7 +140,9 @@ You can find the publication about our guesser agent in the proceedings of ECAI 
 
 ## License
 
-In progress
+Maven is under [Apache License, Version 2.0 (ALv2)](https://www.apache.org/licenses/).
+JWI is under [Creative Commons Attribution Version 4.0 International Public License](https://projects.csail.mit.edu/jwi/license.html).
+Wordnet is under [WordNet 3.0 license](https://wordnet.princeton.edu/wordnet/license/).
 
 ## Acknowledgments
 
