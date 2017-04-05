@@ -31,13 +31,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Import the repository files in Eclipse
 
-Copy your local repository folder in your current workspace. If this is the first time that you launch Eclipse, it will ask you to create a workspace. Note its direction and copy the local repository there.
+Follow the next steps to import our project in Eclipse:
 
-In the window that pops up, select Java Project and clic next.
+```
+>Step 1: Copy your local repository folder in your current workspace. If this is the first time that you launch Eclipse, it will ask you to create a workspace. Note its direction and copy the local repository there.
 
-In the Project name field, enter 'GuesserAgent' (or the name of the local folder of this repository if you changed it).
+>Step 2: In the window that pops up, select Java Project and clic next.
 
-Clic on Finish. The Package Explorer of Eclipse (left side by default) should look like this:
+>Step 3: In the Project name field, enter 'GuesserAgent' (or the name of the local folder of this repository if you changed it).
+
+>Step 4: Clic on Finish.
+```
+Or see how to import an Eclipse project in the Eclipse [Wiki](https://wiki.eclipse.org/Eclipse/Installation).
 
 ### Place the complementary files in the Eclipse project
 
@@ -115,32 +120,28 @@ and the game will repeat until the guesser finds the right city.
 
 ### With hints from the recorded games in Taboo_cleaned_onlyPerfects.csv
 
+In order to play with hints from recorded games, go in the Tester package and run either the class extensive_game or until_success_game. They share the same code excepet the stop condition of the game (no hint left for the first, success for the second).
+
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [JWI](https://projects.csail.mit.edu/jwi/) - Used to create java objects from Wordnet
+* [Wordnet](https://wordnet.princeton.edu/) - Used as a database for semantic distances
 
 ## Publication
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+You can find the publication about our guesser agent in the proceedings of ECAI 2016 DIVERSITY Workshop [here](http://www.ecai2016.org/content/uploads/2016/08/W13-diversity-2016.pdf). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* [Kemo Adrian](https://www.iiia.csic.es/en/staff/kemo-adrian)
+* [Aysenur Bilgin](http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/b/i/a.bilgin/a.bilgin.html)
+* [Paul Van Eecke](https://scholar.google.com/citations?user=WWZim-8AAAAJ&hl=en)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+In progress
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+The authors are supported by the project ESSENCE: Evolution of Shared Semantics in Computational Environments (ITN 607062)
