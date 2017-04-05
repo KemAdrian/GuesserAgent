@@ -14,7 +14,7 @@ Download the [Java Development Kit](http://www.oracle.com/technetwork/java/javas
 
 You can download Eclipse [here](https://eclipse.org/downloads/) for a large panel of operating systems. A good tutorial for the installation is provided by the Eclipse [Wiki](https://wiki.eclipse.org/Eclipse/Installation). You should download the last Eclipse IDE for Java Developers version of the IDE.
 
-##Â Installation
+## Installation
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -28,7 +28,7 @@ In the Project name field, enter 'ArgumentationOnMeaning' (or the name of the lo
 
 Clic on Finish. The Package Explorer of Eclipse (left side by default) should look like this:
 
-###Â Place the complementary files in the Eclipse project
+### Place the complementary files in the Eclipse project
 
 Two files need to be added to the project in order to run the guesser agent. They are not provided in the repository.
 
