@@ -42,12 +42,12 @@ If you want to modify these names, see the Javadoc of the classes from the Teste
 cities.tsv is a spreadsheet file with columns separated by tabulations. This file contains informations about the cities that the guesser knows about. Each line correspond to a different city. The file has six columns, respectively:
 
 ```
-a unique identifier for the city
-the name of the city name
-the name of the city's country
-the latitude of the city
-the longitude of the city
-a list taboo words for the city, each separated by a semicolon
+1- a unique identifier for the city
+2- the name of the city name
+3- the name of the city's country
+4- the latitude of the city
+5- the longitude of the city
+6- a list taboo words for the city, each separated by a semicolon
 ```
 
 example:
@@ -59,16 +59,16 @@ example:
 Taboo_cleaned_onlyPerfects.csv is a spreadsheet file with columns separated by commas. This file contains a set of recorded Taboo games, in order to train the guesser. Each line figures a different turn from a Taboo game, with the message exchanged during this turn. The file has ten columns, respectively:
 
 ```
-a unique identifier for the game
-the city's unique identifier (similar to the one in cities.tsv)
-the city's name
-blank column
-"guesser" or "describer", depending on which is playing during the turn
-a string with the message sent to the other player
-a list taboo words for the city, each separated by a semicolon
-a unique identifier for this message
-the name of the user account that sent the message
-the date of the message
+1- a unique identifier for the game
+2- the city's unique identifier (similar to the one in cities.tsv)
+3- the city's name
+4- blank column
+5- "guesser" or "describer", depending on which is playing during the turn
+6- a string with the message sent to the other player
+7- a list taboo words for the city, each separated by a semicolon
+8- a unique identifier for this message
+9- the name of the user account that sent the message
+10- the date of the message
 ```
 
 The file should start with the header:
