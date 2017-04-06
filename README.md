@@ -4,7 +4,7 @@ Taboo is a word-guessing game in which one player has to describe a target term 
 
 The Location Taboo Challenge (LTC), which has been proposed by the [ESSENCE Marie Curie Initial Training Network](https://www.essence-network.com/), is a version of Taboo that only contains cities as target terms and is intended to be played by artificial guesser agents. In the LTC, the hints, which are words associated to the target city, are sequentially provided to the guesser agent, and the goal is to guess the target location as soon as possible. A complete specification of the challenge can be found [here](https://www.essence-network.com/challenge/).
 
-This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#Publication). This readme will guide you in the installation of the agent.
+This repository provides the code of a Guesser agent presented in a [workshop paper](https://github.com/keminus/GuesserAgent#publication). This readme will guide you in the installation of the agent.
 
 ## Presentation of the Taboo Game
 
